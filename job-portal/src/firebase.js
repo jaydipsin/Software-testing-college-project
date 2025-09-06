@@ -26,5 +26,5 @@ if(getApps().length > 0){
     console.log("Firebase Initialized" , app.name);
 }
 else{
-    console.log("Firebase is not Initialized.")
+    console.log("Firebase is not Initialized." , app.name)
 }
