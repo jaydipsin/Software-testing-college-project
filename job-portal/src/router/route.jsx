@@ -2,7 +2,7 @@
 import { Navigate } from "react-router-dom";
 import AuthLanding from "../auth/auth-landing";
 import Dashboard from "../dashboard/dashboard";
-import Layout from "../dashboard/layout";
+import Layout from "../shared/layout";
 import AuthGurd from "../gurds/auth.gurd";
 
 export const routes = [
