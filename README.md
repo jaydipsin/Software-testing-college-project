@@ -1,1 +1,1 @@
-# Software-testing-aandugaanducollege-project
+# Software-testing-college-project
