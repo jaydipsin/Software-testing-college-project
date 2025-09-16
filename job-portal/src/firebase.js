@@ -1,20 +1,22 @@
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 import { getApps } from "firebase/app";
+import { getAuth } from "firebase/firestore"
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyCjfB0zzl40cT8nyT-WMznuj8V2LlKg4_E",
-  authDomain: "job-portal-clg.firebaseapp.com",
-  projectId: "job-portal-clg",
-  storageBucket: "job-portal-clg.firebasestorage.app",
-  messagingSenderId: "1006350173443",
-  appId: "1:1006350173443:web:e5181828692c0fc3e3d536",
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.REACT_APP_FIREBASE_APP_ID,
   measurementId: "G-9KLY3KE8CD"
 };
+
 
 
 
